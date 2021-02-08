@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.nav-icon a img{
+    background-color: #87509C;
+}
+header{
+    background: #87509C;
+}
+#service{
+    background-color: #17C2A4;
+}
+.service-title h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+.service-title p {
+    color: white;
+}
+
+.text-white{
+    color: white;
+}
+.team-name h1 {
+    font-size: 1.4rem;
+    color: #3B2D64;
+    font-weight: 700;
+}
+.team-title {
+    color: #79D0EE;
+    font-weight: 500;
+}
+.team-name p{
+    color: #333;
+}
+.effect h1::after {
+content: "";
+display: block;
+height: .3rem;
+background-color: #14a58c;
+width: 6rem;
+margin: auto;
+margin-top: .7rem;
+
+}
+#team {
+    background-color: #e7f1f8;
+}
+.team-img img {
+    width: 12rem;
+    height: 12rem;
+}
+ul.social-icon li {
+    list-style: none;
+    padding: .7rem;
+    display: inline-block;
+}
+ul.social-icon li a:link {
+    color: #fff;
+    
+}
+ul.social-icon li a:link i::before {
+    background-color: #bdd1df;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: .5rem;
+    transition: .5s;
+}
+ul.social-icon li a:hover i::before{
+    background: #393939;
+    transform: rotate(360deg);
+} 
+
+svg.web-design circle{
+stroke-width: 6 !important;
+stroke: #30bae7 !important;
+}
+svg.html-css circle{
+    stroke-width: 6 !important;
+    stroke: #d74680 !important;
+}
+svg.graphic-design circle {
+    stroke: #15c7a8 !important;
+    stroke-width: 6 !important;
+}
+svg.ui-ux circle{
+    stroke: #eb7d4b !important;
+    stroke-width: 6 !important;
+}
+
+#portfolio{
+    background-color: #ffdd99;
+}
