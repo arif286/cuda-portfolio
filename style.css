@@ -105,3 +105,50 @@ svg.ui-ux circle{
 #portfolio{
     background-color: #ffdd99;
 }
+.client img{
+    width: 100px;
+    border-radius: 50%;
+}
+.client-details p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: white;
+}
+
+.client-details h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: white;
+}
+
+.client-details span {
+    color: #ffdd99;
+    font-size: 17px;
+    font-weight: 500;
+}
+#review{
+    background-color: #d74680;
+}
+
+#contact-us{
+background-color: #3c5499;
+}
+.input-color{
+    background-color: #273a71 !important;
+    border: none!important;
+    color: white !important;
+}
+footer{
+    background-color: #344b8e;
+}
+.footer-icon li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 5px;
+    transition: .5s;
+}
+.footer-icon li a:hover{
+color: #757575 !important;
+}
