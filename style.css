@@ -19,6 +19,8 @@ header{
 }
 #service{
     background-color: #17C2A4;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
 }
 .service-title h1 {
     font-size: 1.5rem;
@@ -55,8 +57,23 @@ margin: auto;
 margin-top: .7rem;
 
 }
+
+.our-team h1::after{
+    background: #c8d9e5;
+}
+.skill-person h1::after{
+    background-color: #e5c37f;
+}
+.review-title h1::after {
+    background-color: #b73c6d;
+}
+.contact-title h1::after {
+    background-color: #273a71;
+}
 #team {
     background-color: #e7f1f8;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
 }
 .team-img img {
     width: 12rem;
@@ -84,7 +101,10 @@ ul.social-icon li a:hover i::before{
     background: #393939;
     transform: rotate(360deg);
 } 
-
+#skill{
+    padding-top: 2rem;
+    padding-bottom: 4.5rem;
+}
 svg.web-design circle{
 stroke-width: 6 !important;
 stroke: #30bae7 !important;
@@ -104,6 +124,8 @@ svg.ui-ux circle{
 
 #portfolio{
     background-color: #ffdd99;
+    padding-bottom: 4.5rem;
+    padding-top: 2rem;
 }
 .client img{
     width: 100px;
@@ -128,10 +150,14 @@ svg.ui-ux circle{
 }
 #review{
     background-color: #d74680;
+    padding-top: 2rem;
+    padding-bottom: 4.5rem;
 }
 
 #contact-us{
 background-color: #3c5499;
+padding-top: 2rem;
+padding-bottom: 4.5rem;
 }
 .input-color{
     background-color: #273a71 !important;
@@ -151,4 +177,10 @@ footer{
 }
 .footer-icon li a:hover{
 color: #757575 !important;
+}
+.project-btn {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    border: none !important;
+    color: white !important;
 }
